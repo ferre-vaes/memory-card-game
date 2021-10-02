@@ -1,0 +1,21 @@
+.board {
+  padding: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  display: grid;
+  grid-template-columns: repeat(4, 12rem);
+  grid-template-rows: repeat(4, 12rem);
+  grid-gap: 1rem;
+  perspective: 800px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.round {
+  border-radius: 1rem;
+}
